@@ -1,0 +1,12 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN MESSAGES
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+Messages:
+  GENERAL:
+    PREFIX: "&dTemplate_PaperMC &8❙"
+    NO_PERMISSION: "%prefix% &cYou are forbidden to use this."
+    CUSTOM_COMMAND_NO_PERMISSION: "&cYou are not allowed to execute this command."
+    INVALID_PLAYER: "%prefix% &c%player% is not online!"
+    CONFIG_RELOAD: "%prefix% &aAll configuration files has been reloaded in &7%time%ms"
+    COOLDOWN_ACTIVE: "%prefix% &cYou must wait &e%time%s &cbefore doing this again!"

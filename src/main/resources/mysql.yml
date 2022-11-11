@@ -1,0 +1,7 @@
+#DO NOT EDIT THIS
+address: ""
+database: ""
+username: ""
+password: ""
+maximum-pool-size: 2
+maxLifetime: 60

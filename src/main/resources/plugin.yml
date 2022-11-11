@@ -1,0 +1,21 @@
+name: BedWars_V2
+author: DarknessOmbrage et Kurama
+version: 2.0.0
+description: ${project.description}
+api-version: 1.13
+main: eu.eclesia_network.bedwars.BedWars
+loadbefore: [Essentials]
+softdepend: [PlaceholderAPI, HeadDatabase, Multiverse-Core, NBTAPI]
+permissions:
+  template.*:
+    description: Gives access to all PlayerInfo permissions
+    children:
+      template.command.*: true
+  template.command.*:
+    description: Gives access to all command permissions
+    children:
+      template.command.help: true
+commands:
+  template:
+    description: "Template"
+
